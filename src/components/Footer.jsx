@@ -2,7 +2,7 @@ import PhilLogo from '../assets/phil-logo.png'
 
 const Footer = () => {
     return (
-        <footer className="text-center text-lg-start bg-light text-muted">
+        <footer className="text-center text-lg-start bg-light text-muted mt-3">
             <section className="d-flex justify-content-center justify-content-lg-between">
                 <div>
                     <a href="" className="me-4 text-reset">

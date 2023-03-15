@@ -1,7 +1,6 @@
 import { useState } from "react"
 import Banner from "../components/Banner"
 import Breadcrumbs from "../components/Breadcrumbs"
-import Masthead from "../components/Masthead"
 import ServiceCard from "../components/ServiceCard"
 
 const Services = () => {
@@ -16,11 +15,6 @@ const Services = () => {
 
   return (
     <>
-      <header>
-        <Masthead />
-        <hr />
-      </header>
-
       <main>
         <div className="container-fluid">
           <Breadcrumbs />

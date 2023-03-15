@@ -3,24 +3,16 @@ import Banner from '../components/Banner'
 import Breadcrumbs from '../components/Breadcrumbs'
 import Carousel from '../components/Carousel'
 import LinksCard from '../components/LinksCard'
-import Masthead from '../components/Masthead'
 import NewsCard from '../components/NewsCard'
 
 const Home = () => {
 
   return (
     <>
-      <header>
-        <Masthead />
-
-        <hr />
-
-        <div className="container-fluid">
-          <Breadcrumbs />
-          <Carousel />
-        </div>
-
-      </header>
+      <div className="container-fluid">
+        <Breadcrumbs />
+        <Carousel />
+      </div>
 
       <hr />
 

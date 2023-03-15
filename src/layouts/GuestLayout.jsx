@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar"
 import '../App.css'
 import Footer from "../components/Footer"
 import { useEffect, useState } from "react"
+import Header from "../components/Header"
 
 const GuestLayout = () => {
   const [activeLink, setActiveLink] = useState('');
@@ -73,6 +74,7 @@ const GuestLayout = () => {
   return (
     <>
       <Navbar activeLink={activeLink}/>
+      <Header />
       <Outlet />
       <Footer />
     </>

@@ -29,7 +29,7 @@ const Footer = () => {
                 <div className="container text-center text-md-start mt-5">
                     <div className="row mt-3">
                         <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                            <img src={PhilLogo} width="150" height="150" alt="" />
+                            <img src={PhilLogo} width="150" height="150" alt="" loading="lazy" />
                         </div>
                         <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
                             <h6 className="text-uppercase fw-bold mb-4">

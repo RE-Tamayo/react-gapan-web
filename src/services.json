@@ -1,0 +1,104 @@
+[
+    {
+        "id": 0,
+        "title": "PAGKUHA NG ZONING CERTIFICATE PARA SA BUSINESS PERMIT",
+        "office": "MAGSADYA PO SA TANGGAPANG ITO : ONE STOP SHOP",
+        "instruction": "PARA SA RENEWAL:",
+        "steps": [
+            {
+                "step": "Ipakita ang application form galing sa tanggapan ng business permit"
+            },
+            {
+                "step": "Lalagyan ng kaukulang halaga ng babayaran"
+            },
+            {
+                "step": "Approval ng clearance"
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "title": "PAGKUHA NG ZONING CERTIFICATE PARA SA BUSINESS PERMIT",
+        "office": "MAGSADYA PO SA TANGGAPANG ITO : One Stop Shop",
+        "instruction": "PARA SA RENEWAL:",
+        "steps": [
+            {
+                "step": "Ipakita ang application form galing sa tanggapan ng business permit"
+            },
+            {
+                "step": "Lalagyan ng kaukulang halaga ng babayaran"
+            },
+            {
+                "step": "Approval ng clearance"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "title": "PAGKUHA NG BUILDING INSPECTION CLEARANCE PARA SA BUSINESS PERMIT",
+        "office": "MAGSADYA PO SA TANGGAPANG ITO : City Engineer's Office",
+        "instruction": "PARA SA RENEWAL:",
+        "steps": [
+            {
+                "step": "Ipakita ang application form galing sa tanggapan ng business permit"
+            },
+            {
+                "step": "Lalagyan ng kaukulang halaga ng babayaran"
+            },
+            {
+                "step": "Approval ng clearance"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "title": "PAGKUHA NG HEALTH AT SANITARY CLEARANCE PARA SA BUSINESS PERMIT",
+        "office": "MAGSADYA PO SA TANGGAPANG ITO : City Health Office",
+        "instruction": "PARA SA RENEWAL:",
+        "steps": [
+            {
+                "step": "Magkakaroon ng inspeksyon bago ang nakatakdang pagkuha ng clearance"
+            },
+            {
+                "step": "Ibigay ang datus na may kaugnayan sa tauhan ng negosyo tulad ng pangalan, edad, at designasyon nito"
+            },
+            {
+                "step": "Ibigay lamang ang mga sumusunod : <br> Food Handlers: Laboratory Result ng Fecalysis, Chest X-ray (plaka, orighinal na resulta at xerox copu, 1 x 1 ID picture) <br> Non-Food Handlers: Chest X-ray (plaka, orighinal na resulta at xerox copy"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "title": "PAGKUHA NG FIRE SAFETY CLEARANCE PARA SA BUSINESS PERMIT",
+        "office": "MAGSADYA PO SA TANGGAPANG ITO : One Stop Shop",
+        "instruction": "",
+        "steps": [
+            {
+                "step": "Ipakita ang aplikasyon na galing sa Tanggapan ng Business Permit"
+            },
+            {
+                "step": "Kuhanin ang ibibigay na Temporary Clearance"
+            },
+            {
+                "step": "Isasagawa ang inspection"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "title": "PAGKUHA NG FIRE SAFETY CLEARANCE PARA SA BUSINESS PERMIT",
+        "office": "MAGSADYA PO SA TANGGAPANG ITO : One Stop Shop",
+        "instruction": "",
+        "steps": [
+            {
+                "step": "Ipakita ang aplikasyon na galing sa Tanggapan ng Business Permit"
+            },
+            {
+                "step": "Kuhanin ang ibibigay na Temporary Clearance"
+            },
+            {
+                "step": "Isasagawa ang inspection"
+            }
+        ]
+    }
+]

@@ -32,6 +32,42 @@ const GuestLayout = () => {
     if(pathname === '/directory') {
       document.title = 'Directory - Gapan City';
     }
+    if(pathname === '/abt-history') {
+      document.title = 'History - Gapan City';
+    }
+    if(pathname === '/abt-mission-vision') {
+      document.title = 'Mission Vision - Gapan City';
+    }
+    if(pathname === '/abt-profile') {
+      document.title = 'Profile - Gapan City';
+    }
+    if(pathname === '/abt-physical') {
+      document.title = 'Physical - Gapan City';
+    }
+    if(pathname === '/abt-human-resources') {
+      document.title = 'Human Resources - Gapan City';
+    }
+    if(pathname === '/abt-economic-sector') {
+      document.title = 'Economic Sector - Gapan City';
+    }
+    if(pathname === '/abt-social-services') {
+      document.title = 'Social Services - Gapan City';
+    }
+    if(pathname === '/abt-infrastructure') {
+      document.title = 'Infrastructure - Gapan City';
+    }
+    if(pathname === '/gov-mayor') {
+      document.title = 'Mayor - Gapan City';
+    }
+    if(pathname === '/gov-vice-mayor') {
+      document.title = 'Vice Mayor - Gapan City';
+    }
+    if(pathname === '/gov-councilor') {
+      document.title = 'Councilor - Gapan City';
+    }
+    if(pathname === '/gov-barangay') {
+      document.title = 'Barangay - Gapan City';
+    }
   }, [pathname]);
 
   return (

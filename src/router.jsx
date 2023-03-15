@@ -9,6 +9,18 @@ import Tourism from './views/Tourism';
 import Gallery from './views/Gallery';
 import News from './views/News';
 import Directory from './views/Directory';
+import History from './views/History';
+import MissionVision from './views/MissionVision';
+import Physical from './views/Physical';
+import Profile from './views/Profile';
+import HumanResources from './views/HumanResources';
+import EconomicSector from './views/EconomicSector';
+import SocialServices from './views/SocialServices';
+import Infrastructure from './views/Infrastructure';
+import Mayor from './views/Mayor';
+import ViceMayor from './views/ViceMayor';
+import Councilor from './views/Councilor';
+import Barangay from './views/Barangay';
 
 const router = createBrowserRouter([
     {
@@ -42,6 +54,65 @@ const router = createBrowserRouter([
             {
                 path: '/directory',
                 element: <Directory />
+            },
+            {
+                path: '/abt-history',
+                element: <History />
+            },
+
+            {
+                path: '/abt-mission-vision',
+                element: <MissionVision />
+            },
+
+            {
+                path: '/abt-profile',
+                element: <Profile />
+            },
+
+            {
+                path: '/abt-physical',
+                element: <Physical />
+            },
+
+            {
+                path: '/abt-human-resources',
+                element: <HumanResources />
+            },
+
+            {
+                path: '/abt-economic-sector',
+                element: <EconomicSector />
+            },
+
+            {
+                path: '/abt-social-services',
+                element: <SocialServices />
+            },
+
+            {
+                path: '/abt-infrastructure',
+                element: <Infrastructure />
+            },
+
+            {
+                path: '/gov-mayor',
+                element: <Mayor />
+            },
+
+            {
+                path: '/gov-vice-mayor',
+                element: <ViceMayor />
+            },
+
+            {
+                path: '/gov-councilor',
+                element: <Councilor />
+            },
+
+            {
+                path: '/gov-barangay',
+                element: <Barangay />
             },
         ]
     },

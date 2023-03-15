@@ -20,14 +20,30 @@ const Navbar = ({activeLink}) => {
                                 About Us
                             </a>
                             <ul className="dropdown-menu">
-                                <li><a className="dropdown-item" href="#">History</a></li>
-                                <li><a className="dropdown-item" href="#">Mission / Vision</a></li>
-                                <li><a className="dropdown-item" href="#">Profile</a></li>
-                                <li><a className="dropdown-item" href="#">Physical</a></li>
-                                <li><a className="dropdown-item" href="#">Human Resources</a></li>
-                                <li><a className="dropdown-item" href="#">Economic Sector</a></li>
-                                <li><a className="dropdown-item" href="#">Social Services</a></li>
-                                <li><a className="dropdown-item" href="#">Infrastructure</a></li>
+                                <li>
+                                    <Link className={`nav-link p-3 ${activeLink === '/abt-history' && 'active'}`} to="/abt-history">History</Link>
+                                </li>
+                                <li>
+                                    <Link className={`nav-link p-3 ${activeLink === '/abt-mission-vision' && 'active'}`} to="/abt-mission-vision">Mission / Vision</Link>
+                                </li>
+                                <li>
+                                    <Link className={`nav-link p-3 ${activeLink === '/abt-profile' && 'active'}`} to="/abt-profile">Profile</Link>
+                                </li>
+                                <li>
+                                    <Link className={`nav-link p-3 ${activeLink === '/abt-physical' && 'active'}`} to="/abt-physical">Physical</Link>
+                                </li>
+                                <li>
+                                    <Link className={`nav-link p-3 ${activeLink === '/abt-human-resources' && 'active'}`} to="/abt-human-resources">Human Resources</Link>
+                                </li>
+                                <li>
+                                    <Link className={`nav-link p-3 ${activeLink === '/abt-economic-sector' && 'active'}`} to="/abt-economic-sector">Economic Sector</Link>
+                                </li>
+                                <li>
+                                    <Link className={`nav-link p-3 ${activeLink === '/abt-social-services' && 'active'}`} to="/abt-social-services">Social Services</Link>
+                                </li>
+                                <li>
+                                <Link className={`nav-link p-3 ${activeLink === '/abt-infrastructure' && 'active'}`} to="/abt-infrastructure">Infrastructure</Link>
+                                </li>
                             </ul>
                         </li>
                         <li className="nav-item dropdown">
@@ -36,10 +52,18 @@ const Navbar = ({activeLink}) => {
                                 Government
                             </a>
                             <ul className="dropdown-menu">
-                                <li><a className="dropdown-item" href="#">Mayor</a></li>
-                                <li><a className="dropdown-item" href="#">Vice Mayor</a></li>
-                                <li><a className="dropdown-item" href="#">Councilor</a></li>
-                                <li><a className="dropdown-item" href="#">Barangay</a></li>
+                                <li>
+                                    <Link className={`nav-link p-3 ${activeLink === '/gov-mayor' && 'active'}`} to="/gov-mayor">Mayor</Link>
+                                </li>
+                                <li>
+                                    <Link className={`nav-link p-3 ${activeLink === '/gov-vice-mayor' && 'active'}`} to="/gov-vice-mayor">Vice Mayor</Link>
+                                </li>
+                                <li>
+                                    <Link className={`nav-link p-3 ${activeLink === '/gov-councilor' && 'active'}`} to="/gov-councilor">Councilor</Link>
+                                </li>
+                                <li>
+                                    <Link className={`nav-link p-3 ${activeLink === '/gov-barangay' && 'active'}`} to="/gov-barangay">Barangay</Link>
+                                </li>
                             </ul>
                         </li>
                         <li className="nav-item">

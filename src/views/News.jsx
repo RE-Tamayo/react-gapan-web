@@ -1,3 +1,4 @@
+import Banner from "../components/Banner"
 import Breadcrumbs from "../components/Breadcrumbs"
 import Masthead from "../components/Masthead"
 
@@ -6,7 +7,6 @@ const News = () => {
     <>
       <header>
         <Masthead />
-
         <hr />
       </header>
 
@@ -14,6 +14,8 @@ const News = () => {
         <div className="container-fluid">
           <Breadcrumbs />
         </div>
+
+        <Banner title={'NEWS'} />
       </main>
     </>
   )

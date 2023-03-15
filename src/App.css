@@ -147,6 +147,10 @@
 	--bs-breadcrumb-divider: '>';
 }
 
+.text-body {
+	max-width: 1100px;
+}
+
 @media only screen and (max-width: 780px) {
 	.bp-logo {
 		display: none;
@@ -156,3 +160,17 @@
 		margin: 10px auto 0px auto;
 	}
 }
+
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 601px) {
+	.long-text {
+	  font-size: 20px;
+	}
+  }
+  
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 600px) {
+	.long-text {
+	  font-size: 15px;
+	}
+  }

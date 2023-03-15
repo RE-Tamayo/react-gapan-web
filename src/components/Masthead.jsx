@@ -6,10 +6,10 @@ const Masthead = () => {
         <div className="container mt-3">
             <div className="row header">
                 <div className="col-md-9">
-                    <img className="masthead" src={GapanIcon} alt="gapan_logo" />
+                    <img className="masthead" src={GapanIcon} alt="gapan_logo" loading="lazy" />
                 </div>
                 <div className="col-md-3 d-flex justify-content-end">
-                    <img className="bp-logo" src={BPLogo} width="130" height="130" alt="bp-logo" />
+                    <img className="bp-logo" src={BPLogo} width="130" height="130" alt="bp-logo" loading="lazy" />
                 </div>
             </div>
         </div>

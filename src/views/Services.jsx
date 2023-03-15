@@ -1,16 +1,24 @@
+import { useState } from "react"
 import Banner from "../components/Banner"
 import Breadcrumbs from "../components/Breadcrumbs"
 import Masthead from "../components/Masthead"
 import ServiceCard from "../components/ServiceCard"
 
 const Services = () => {
+  const [serviceData, setServiceData] = useState({
+    title: ''
+  });
+
+  const onClick = () => {
+    
+  }
+
+
   return (
     <>
       <header>
         <Masthead />
-
         <hr />
-
       </header>
 
       <main>
@@ -24,7 +32,7 @@ const Services = () => {
 
         <div className="container">
           <div className="row g-3">
-            <ServiceCard />
+            <ServiceCard onClick={onClick}/>
             <ServiceCard />
             <ServiceCard />
             <ServiceCard />

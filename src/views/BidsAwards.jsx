@@ -1,3 +1,4 @@
+import Banner from "../components/Banner"
 import Breadcrumbs from "../components/Breadcrumbs"
 import Masthead from "../components/Masthead"
 
@@ -14,6 +15,8 @@ const BidsAwards = () => {
         <div className="container-fluid">
           <Breadcrumbs />
         </div>
+
+        <Banner title={'BIDS AND AWARDS'} />
       </main>
     </>
   )

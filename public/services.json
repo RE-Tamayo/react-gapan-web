@@ -1,6 +1,7 @@
 [
     {
         "id": 0,
+        "image": "1.jpg",
         "title": "PAGKUHA NG ZONING CERTIFICATE PARA SA BUSINESS PERMIT",
         "office": "MAGSADYA PO SA TANGGAPANG ITO : ONE STOP SHOP",
         "instruction": "PARA SA RENEWAL:",
@@ -18,6 +19,7 @@
     },
     {
         "id": 1,
+        "image": "2.jpg",
         "title": "PAGKUHA NG ZONING CERTIFICATE PARA SA BUSINESS PERMIT",
         "office": "MAGSADYA PO SA TANGGAPANG ITO : One Stop Shop",
         "instruction": "PARA SA RENEWAL:",
@@ -35,6 +37,7 @@
     },
     {
         "id": 2,
+        "image": "3.jpg",
         "title": "PAGKUHA NG BUILDING INSPECTION CLEARANCE PARA SA BUSINESS PERMIT",
         "office": "MAGSADYA PO SA TANGGAPANG ITO : City Engineer's Office",
         "instruction": "PARA SA RENEWAL:",
@@ -52,6 +55,7 @@
     },
     {
         "id": 3,
+        "image": "1.jpg",
         "title": "PAGKUHA NG HEALTH AT SANITARY CLEARANCE PARA SA BUSINESS PERMIT",
         "office": "MAGSADYA PO SA TANGGAPANG ITO : City Health Office",
         "instruction": "PARA SA RENEWAL:",
@@ -69,6 +73,7 @@
     },
     {
         "id": 4,
+        "image": "2.jpg",
         "title": "PAGKUHA NG FIRE SAFETY CLEARANCE PARA SA BUSINESS PERMIT",
         "office": "MAGSADYA PO SA TANGGAPANG ITO : One Stop Shop",
         "instruction": "",
@@ -86,6 +91,7 @@
     },
     {
         "id": 5,
+        "image": "3.jpg",
         "title": "PAGKUHA NG FIRE SAFETY CLEARANCE PARA SA BUSINESS PERMIT",
         "office": "MAGSADYA PO SA TANGGAPANG ITO : One Stop Shop",
         "instruction": "",
@@ -98,6 +104,24 @@
             },
             {
                 "step": "Isasagawa ang inspection"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "image": "1.jpg",
+        "title": "PAGKUHAsadfsesfe NG FIRE SAFETY CLEARANCE PARA SA BUSINESS PERMIT",
+        "office": "MAGSADYA PO SA TANGGAPANG ITO : One Stop Shop",
+        "instruction": "",
+        "steps": [
+            {
+                "step": "Ipakita ang aplikasyon na galing sa Tanggapan ng Business Permit"
+            },
+            {
+                "step": "Kuhanin ang ibibigay na Temporary Clearance"
+            },
+            {
+                "step": "Isasagawa ang inspectionffff"
             }
         ]
     }

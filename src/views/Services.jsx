@@ -1,15 +1,28 @@
-import { useState } from "react"
+import axios from "axios"
+import { useEffect, useState } from "react"
 import Banner from "../components/Banner"
 import Breadcrumbs from "../components/Breadcrumbs"
 import ServiceCard from "../components/ServiceCard"
+import ServicesModal from "../components/ServicesModal"
 
 const Services = () => {
-  const [serviceData, setServiceData] = useState({
-    title: ''
-  });
+  const [services, setServices] = useState([]);
+  const [modalData, setModalData] = useState([]);
 
-  const onClick = () => {
-    
+  useEffect(() => {
+    axios.get('services.json').then(res => {
+      setServices(res.data);
+    }).catch(err => {
+      console.log(err);
+    });
+  }, []);
+
+  const clickEvent = (id) => {
+    axios.get('services.json').then(res => {
+      setModalData(res.data[id.id]);
+    }).catch(err => {
+      console.log(err);
+    });
   }
 
 
@@ -26,13 +39,12 @@ const Services = () => {
 
         <div className="container">
           <div className="row g-3">
-            <ServiceCard onClick={onClick}/>
-            <ServiceCard />
-            <ServiceCard />
-            <ServiceCard />
+            {services.map(service => (<ServiceCard key={service.id} clickEvent={clickEvent} id={service.id} title={service.title} image={service.image}/>))}
+            <ServicesModal id={modalData.id} title={modalData.title} office={modalData.office} instruction={modalData.instruction} steps={modalData.steps}/>
           </div>
         </div>
       </main>
+
     </>
   )
 }

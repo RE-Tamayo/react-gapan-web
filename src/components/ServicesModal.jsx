@@ -6,7 +6,7 @@ const ServicesModal = ({id, title, office, instruction, steps}) => {
             <div className="modal-dialog">
                 <div className="modal-content">
                     <div className="modal-header">
-                        <h1 className="modal-title fs-5" id="modalLabel">{title}</h1>
+                        <h5 className="modal-title fs-6 fw-bold" id="modalLabel">{title}</h5>
                         <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div className="modal-body">

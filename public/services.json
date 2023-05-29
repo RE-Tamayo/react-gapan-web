@@ -20,7 +20,7 @@
     {
         "id": 1,
         "image": "2.jpg",
-        "title": "PAGKUHA NG ZONING CERTIFICATE PARA SA BUSINESS PERMIT",
+        "title": "PAGKUHA NG ZONING CERTIFICATE PARA SA BUSINESS PERMITwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww",
         "office": "MAGSADYA PO SA TANGGAPANG ITO : One Stop Shop",
         "instruction": "PARA SA RENEWAL:",
         "steps": [
@@ -109,6 +109,42 @@
     },
     {
         "id": 6,
+        "image": "1.jpg",
+        "title": "PAGKUHAsadfsesfe NG FIRE SAFETY CLEARANCE PARA SA BUSINESS PERMIT",
+        "office": "MAGSADYA PO SA TANGGAPANG ITO : One Stop Shop",
+        "instruction": "",
+        "steps": [
+            {
+                "step": "Ipakita ang aplikasyon na galing sa Tanggapan ng Business Permit"
+            },
+            {
+                "step": "Kuhanin ang ibibigay na Temporary Clearance"
+            },
+            {
+                "step": "Isasagawa ang inspectionffff"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "image": "1.jpg",
+        "title": "PAGKUHAsadfsesfe NG FIRE SAFETY CLEARANCE PARA SA BUSINESS PERMIT",
+        "office": "MAGSADYA PO SA TANGGAPANG ITO : One Stop Shop",
+        "instruction": "",
+        "steps": [
+            {
+                "step": "Ipakita ang aplikasyon na galing sa Tanggapan ng Business Permit"
+            },
+            {
+                "step": "Kuhanin ang ibibigay na Temporary Clearance"
+            },
+            {
+                "step": "Isasagawa ang inspectionffff"
+            }
+        ]
+    },
+    {
+        "id": 8,
         "image": "1.jpg",
         "title": "PAGKUHAsadfsesfe NG FIRE SAFETY CLEARANCE PARA SA BUSINESS PERMIT",
         "office": "MAGSADYA PO SA TANGGAPANG ITO : One Stop Shop",

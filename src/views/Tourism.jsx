@@ -1,3 +1,4 @@
+import AttractionsCarousel from "../components/AttractionsCarousel"
 import Banner from "../components/Banner"
 import Breadcrumbs from "../components/Breadcrumbs"
 
@@ -10,6 +11,7 @@ const Tourism = () => {
         </div>
 
         <Banner title={'TOURISM'} />
+        <AttractionsCarousel/>
       </main>
     </>
   )
